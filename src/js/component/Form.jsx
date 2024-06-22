@@ -5,7 +5,7 @@ export const Form = () => {
     const [task, setTask] = useState([]);
     const [valueInput, setvalueInput] = useState('');
 
-    console.log(task.length);
+    
     const handleSubmit =(event)=>{
         event.preventDefault();
     }
